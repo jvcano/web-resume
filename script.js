@@ -29,11 +29,11 @@ renderer.setAnimationLoop(t => {
 
 const W = 10, H = 10, SW = W * 20, SH = H * 20;
 const IMG_URLS = [
-    "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
-    "https://images.unsplash.com/flagged/photo-1575494539155-6af0f84aa076?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+    "https://dl.dropboxusercontent.com/s/l5fxsofrkpo38vi/20210626_195012_bw.jpg",
+    "https://dl.dropboxusercontent.com/s/xqj50x88f44g6bi/20211014_123908_bw.jpg",
 ];
 
-camera.position.set(0, 0, 8);
+camera.position.set(0, 0, 10);
 
 for (const { color, intensity, x, y, z } of [
     { color: 'white', intensity: 1, x: -W, y: 0, z: 0 },

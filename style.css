@@ -4,10 +4,15 @@ canvas {
     display: block;
     cursor: -webkit-grab;
     cursor: grab;
+    animation-name: backgroundColorPalette;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
 }
 
 body {
     height: 100vh;
+    
 }
 
 a {
@@ -15,4 +20,22 @@ a {
     top: 0;
     left: 0 ;
     padding: 5vmin;
+    
 }
+@keyframes backgroundColorPalette {
+    0% {
+      background: #FFFFFF;
+    }
+    25% {
+      background: #F3F3F3;
+    }
+    50% {
+      background: #E1E1E1;
+    }
+    75% {
+      background: #1B1B1B;
+    }
+    100% {
+      background: #141414;
+    }
+  }
