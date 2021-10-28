@@ -23,19 +23,40 @@ a {
     
 }
 @keyframes backgroundColorPalette {
-    0% {
-      background: #FFFFFF;
-    }
-    25% {
-      background: #F3F3F3;
-    }
-    50% {
-      background: #E1E1E1;
-    }
-    75% {
-      background: #1B1B1B;
+    100% {
+      background: #F8F9FA;
     }
     100% {
-      background: #141414;
+      background: #E9ECEF;
     }
+    100% {
+      background: #DEE2E6;
+    }
+    100% {
+      background: #CED4DA;
+    }
+    100% {
+      background: #ADB5BD;
+    }
+    100% {
+        background: #6C757D;
+      }
+    100% {
+        background: #495057;
+      }
+    100% {
+        background: #343A40;
+      }
+    100% {
+        background: #212529;
+      }
+      100% {
+        background: #1B1B1B;
+      }
+    100% {
+        background: #141414;
+      }
+    100% {
+        background: #000000;
+      }
   }

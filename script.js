@@ -27,7 +27,7 @@ renderer.setAnimationLoop(t => {
 // Main
 // ----
 
-const W = 10, H = 10, SW = W * 20, SH = H * 20;
+const W = 10, H = 10, SW = W * 25, SH = H * 25;
 const IMG_URLS = [
     "https://dl.dropboxusercontent.com/s/l5fxsofrkpo38vi/20210626_195012_bw.jpg",
     "https://dl.dropboxusercontent.com/s/xqj50x88f44g6bi/20211014_123908_bw.jpg",
@@ -36,10 +36,10 @@ const IMG_URLS = [
 camera.position.set(0, 0, 10);
 
 for (const { color, intensity, x, y, z } of [
-    { color: 'white', intensity: 1, x: -W, y: 0, z: 0 },
-    { color: 'white', intensity: 1, x: W, y: 0, z: 0 },
+    { color: 'white', intensity: 1.5, x: -W, y: 0, z: 0 },
+    { color: 'white', intensity: 1.5, x: W, y: 0, z: 0 },
 ]) {
-    const L = new $.SpotLight(color, intensity, W, Math.PI / 2, 0, 0);
+    const L = new $.SpotLight(color, intensity, W, Math.PI / 1, 0, 0);
     L.position.set(x, y, z);
     scene.add(L);
 }
